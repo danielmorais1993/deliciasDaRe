@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/deliciasDaRe/static/css/main.1eb66245.css",
+    "main.css": "/deliciasDaRe/static/css/main.2caa2c7c.css",
     "main.js": "/deliciasDaRe/static/js/main.5f94af36.js",
     "static/js/453.cce3f07d.chunk.js": "/deliciasDaRe/static/js/453.cce3f07d.chunk.js",
     "index.html": "/deliciasDaRe/index.html",
-    "main.1eb66245.css.map": "/deliciasDaRe/static/css/main.1eb66245.css.map",
+    "main.2caa2c7c.css.map": "/deliciasDaRe/static/css/main.2caa2c7c.css.map",
     "main.5f94af36.js.map": "/deliciasDaRe/static/js/main.5f94af36.js.map",
     "453.cce3f07d.chunk.js.map": "/deliciasDaRe/static/js/453.cce3f07d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eb66245.css",
+    "static/css/main.2caa2c7c.css",
     "static/js/main.5f94af36.js"
   ]
 }
