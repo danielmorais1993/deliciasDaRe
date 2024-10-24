@@ -64,4 +64,171 @@ button:hover {
 .cake p {
   font-size: 16px;
   font-weight: bold;
+} */
+ /* Global Styles
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffcad4, #f3a1c5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+/* Header Style */
+.app-header {
+  background-color: #ffc0cb;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #f4a6ba;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.nav-button, .action-button {
+  background-color: #ff87a3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover, .action-button:hover {
+  background-color: #ff5370;
+}
+
+/* Input Fields */
+input[type="text"], input[type="file"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff87a3;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 350px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input[type="text"]:focus, input[type="file"]:focus {
+  border-color: #ff5370;
+  outline: none;
+}
+
+/* Ingredients List */
+.cake {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.cake h3 {
+  color: #ff5370;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Image Styles */
+.cake-image-preview, .cake-image {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Result Section */
+.result {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ff87a3;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for 600px and below */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+
+  .cake {
+    max-width: 100%;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  input[type="text"], input[type="file"] {
+    max-width: 100%;
+  }
+
+  .cake-image-preview, .cake-image {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .action-button, .delete-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .nav-button {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+
+  /* Adjust spacing for mobile */
+  body {
+    padding: 20px;
+  }
+}
+
