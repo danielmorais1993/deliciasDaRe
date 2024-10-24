@@ -64,21 +64,8 @@ button:hover {
 .cake p {
   font-size: 16px;
   font-weight: bold;
-} */
- /* Global Styles
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #ffcad4, #f3a1c5);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+} 
 
-/* Header Style */
 .app-header {
   background-color: #ffc0cb;
   padding: 20px;
