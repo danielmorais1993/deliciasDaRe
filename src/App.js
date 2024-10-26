@@ -7,7 +7,7 @@ function App() {
   const [cakes, setCakes] = useState([]); // State to store created cakes
   const [cakeName, setCakeName] = useState(''); // State to store the cake name
   const [image, setImage] = useState(null); // State to store the uploaded image
-  const profitMargin = 0.30; // 30% profit margin
+  const profitMargin = 1.0; // 30% profit margin
 
   // Load cakes from localStorage when the app starts
   useEffect(() => {
@@ -145,7 +145,7 @@ function App() {
               ))}
             </ul>
             <p>Custo Total: ${cake.totalCost.toFixed(2)}</p>
-            <p>Preço de Venda(30% profit): ${cake.sellingPrice.toFixed(2)}</p>
+            <p>Preço de Venda(100% Lucro): ${cake.sellingPrice.toFixed(2)}</p>
             <button onClick={() => handleDeleteCake(index)} className="delete-button">Delete</button>
           </div>
         ))}
