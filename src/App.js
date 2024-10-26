@@ -125,7 +125,7 @@ function App() {
       
       <div className="result">
         <p>Custo total do Ingrediente: ${calculateTotalCost().toFixed(2)}</p>
-        <p>Preço de Venda (incluindo 30% de lucro): ${calculateSellingPrice().toFixed(2)}</p>
+        <p>Preço de Venda (incluindo 100% de lucro): ${calculateSellingPrice().toFixed(2)}</p>
       </div>
 
       <div className="cakes-list">
